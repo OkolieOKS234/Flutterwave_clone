@@ -904,5 +904,8 @@ margin: 2px auto;
   width: 100%;
   background: #fff;
 }
+.invoice_details{
+  flex-wrap: wrap;
+}
 
 }
