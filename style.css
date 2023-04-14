@@ -906,7 +906,7 @@ margin: 2px auto;
   gap:5px;
 }
 #build_sec{
-  min-width: 768px;
+  min-width: 100%;
 }
 
 .build_sec{
