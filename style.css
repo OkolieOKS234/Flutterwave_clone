@@ -905,6 +905,10 @@ margin: 2px auto;
 .companies{
   gap:5px;
 }
+#build_sec{
+  min-width: 768px;
+}
+
 .build_sec{
   width: 100%;
   background-color: #fff;
