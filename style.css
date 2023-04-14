@@ -908,9 +908,12 @@ margin: 2px auto;
   font-weight: 300;
   font-size: 80px;
   max-width: 100%;
-  margin-left: 40px;
+
 
  
+}
+.build_sec .header_text, .famasi_image, .footcity_image{
+margin-left: 100px;
 }
 .invoice_details{
   flex-wrap: wrap;
