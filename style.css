@@ -791,6 +791,7 @@ padding: 0px;
 body{
   max-width: 100%;
   overflow-x: hidden;
+  min-width: 100%;
 }
   footer{
   margin: 0;
