@@ -201,11 +201,11 @@ img{
 .second_section{
     display: flex;
     /* flex-wrap: wrap; */
-    gap: 30px;
+    gap: 5px;
  
 }
 .famasi_image{
- margin-left: 80px; 
+ margin-left: 10px; 
 
 }
 .caption_second{
@@ -810,7 +810,7 @@ body{
   margin-bottom: 200px;
 }
 .famasi_image{
-  min-width: 900px;
+  min-width: 1200px;
   min-height: 800px;
 }
 .companies, .info_sell{
