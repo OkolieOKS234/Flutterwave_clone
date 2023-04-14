@@ -813,11 +813,14 @@ body{
 #second_section{
   margin: auto;
 }
-.footcity_image, .famasi_image{
+.footcity_image {
   min-width: 500px;
   min-height: 400px;
   margin-bottom: 400px;
   margin-left: 10px;
+}
+.famasi_image{
+  margin-bottom: 20px;
 }
 
 .companies, .info_sell{
@@ -888,7 +891,7 @@ margin: 2px auto;
 .caption_second{
   left:10px;
   max-width: 100%;
-  font-size: 40px;
+  font-size: 1.8rem;
 }
 .card_section .card_header{
   font-size: 25px;
