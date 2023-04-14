@@ -392,15 +392,15 @@ min-width: 100%;
   max-width: 100%;
   margin: auto;
   text-align: center;
-  margin-bottom: 60px;
+
 }
 .card_section p{
   font-family:'Moderrat', sans-serif;
   text-align: center;
-  margin: auto;
+
   max-width: 50%;
   font-size: 22px;
-  margin-bottom: 60px;
+ 
 }
 .card_section span{
   color:#6672C7;
@@ -902,6 +902,7 @@ margin: 2px auto;
   margin: 0;
   padding: 0;
   width: 100%;
+  background: #fff;
 }
 
 }
