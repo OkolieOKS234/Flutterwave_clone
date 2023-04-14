@@ -943,4 +943,12 @@ p.card_section_text{
   font-size: 40px;
   margin: auto;
 }
+.info_sell_text_header{
+  font-size: 60px;
+  font-weight: 600;
+}
+.info_sell_text .info_sell_text_paragraph{
+  font-size: 30px;
+  font-weight: 300;
+}
 }
