@@ -3,10 +3,18 @@
 @font-face {
     font-family: 'Millik';
     src: url('./Fonts/Millik.otf'),
-         url('./Fonts/Millik.ttf') format('ttff'),
+         url('./Fonts/Millik.ttf') format('ttf'),
          url('./Fonts/Millik.ttf') format('truetype');   
     font-weight: normal;
     font-style: normal;
+
+}
+@font-face {
+  font-family: 'Moderrat';
+  src: url('./Fonts/Moderrat.otf'),
+         url('./Fonts/Moderrat.otf') format('ttf'),
+         url('./Fonts/Moderrat.otf') format('truetype');   
+  
 
 }
 
@@ -146,10 +154,11 @@ line-height: 32px;
 }
 .cta_account{
     margin-top: 2%;
+    margin-bottom: 20px;
    background-color: #0A0E27;
    color: #fff;
    width: 250.7px;
-height: 50px;
+height: 70px;
 border-radius: 10px;
 border: none;
 padding: 15px;
@@ -157,6 +166,7 @@ margin-right: 20px;
 font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 font-weight: bold;
 font-size: 15px;
+
 }
 .cta_account.sales{
     background-color: #eee;
@@ -171,7 +181,7 @@ font-size: 15px;
 }
 /* second section */
 img{
-    max-width: 50%;
+    max-width: 100%;
 }
 
 .footcity_image{
@@ -307,11 +317,505 @@ a{
 
 /* Buiding section */
 .build_sec{
-margin: 50px 30px;
+
+background: #f8fafd;
+width: 100%;
+padding: 20px;
+padding-bottom: 200px;
+
 }
-.build_sec h3{
+.build_sec .header_text{
     font-family: "Millik";
     font-weight: 300;
-    font-size: 80px;
-    max-width: 70%;
+    font-size: 75px;
+    max-width: 80%;
+    margin: 90px 40px;
+
+   
+}
+.build_sec h3 span{
+  color: #35A162;
+}
+.info_sell{
+  display: flex;
+  font-family: "Moderrat";
+  letter-spacing: 1px;
+ 
+}
+.info_sell .info_sell_text{
+  max-width: 40%;
+  line-height: 2;
+}
+.info_sell .info_sell_text p{
+  font-size: 20px;
+  font-weight: 300;
+}
+.info_sell .info_sell_text h3{
+  font-weight: 900;
+}
+.info_sell img{
+  min-width: 100%;
+  margin-bottom: -10px;
+}
+/* 2nd features */
+.invoice_details{
+  display: flex;
+ gap: 20px;
+ font-size: larger;
+ 
+}
+.invoice_details div{
+  justify-self: center;
+  align-self: center;
+font-family: "Moderrat", sans-serif;
+max-width: 40%;
+font-weight: 500;
+}
+
+.last_header_info{
+font-family: "Moderrat", sans-serif;
+font-size:80px;
+line-height:110px;
+vertical-align:baseline;
+margin:0px 0px 48px;
+font-weight: 300;
+max-width: 95%;
+}
+
+/* card section */
+.card_section{
+  background-color:#000000;
+  color: #fff;
+
+}
+.card_section h3{
+  font-family: "Millik";
+  font-size: 80px;
+  max-width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.card_section p{
+  font-family:'Moderrat', sans-serif;
+  text-align: center;
+  margin: auto;
+  max-width: 50%;
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+.card_section span{
+  color:#6672C7;
+}
+.card_section button{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Complex card */
+.container1 {
+  position: relative;
+  width: 350px;
+  height: 440px;
+}
+
+.card1 {
+  position: absolute;
+  top: 700px;
+  left: 400px;
+  margin-top: 100px;
+  backdrop-filter: blur(20px);
+  background: linear-gradient(200deg,hsla(0,0%,100%,.2),hsla(0,0%,100%,0));
+  width: 350px;
+  height: 240px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  -webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
+  cursor: pointer;
+}
+
+.card1:nth-child(1) {
+  z-index: 10;
+  top: 0px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.card1:nth-child(2) {
+  z-index: 9;
+  top: -15px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.9;
+}
+
+.card1:nth-child(3) {
+  z-index: 8;
+  top: -30px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.8);
+  transform: scale(0.8);
+  opacity: 0.8;
+}
+
+.card1:nth-child(4) {
+  z-index: 7;
+  top: -45px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.7);
+  transform: scale(0.7);
+  opacity: 0.7;
+}
+
+.card1:nth-child(5) {
+  z-index: 6;
+  top: -60px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.6);
+  transform: scale(0.6);
+  opacity: 0.6;
+}
+
+.card1:nth-child(6) {
+  z-index: 5;
+  top: -75px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+  opacity: 0.5;
+}
+
+.card1:nth-child(7) {
+  z-index: 4;
+  top: -90px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.4);
+  transform: scale(0.4);
+  opacity: 0.4;
+}
+
+.card1:nth-child(8) {
+  z-index: 3;
+  top: -105px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+  opacity: 0.3;
+}
+
+.card1:nth-child(9) {
+  z-index: 2;
+  top: -120px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.2);
+  transform: scale(0.2);
+  opacity: 0.2;
+}
+
+.card1:nth-child(10) {
+  z-index: 1;
+  top: -135px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0.1);
+  transform: scale(0.1);
+  opacity: 0.1;
+}
+
+.card1:nth-child(11) {
+  z-index: 0;
+  top: -150px;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.card1:first-child:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card1:last-child { 
+  opacity: 0;
+ }
+ 
+.title {
+  font-size: 36px;
+  font-weight: 300;
+  color: #FFF;
+  text-align: center;
+  margin-top:150px;
+}
+
+.title p {
+  padding: 10px 0 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.container { 
+  margin: 100px auto;
+ }
+
+.card {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 12px;
+  text-align: center;
+}
+
+span {
+  display: inline-block;
+  /* background: rgba(0, 0, 0, 0.05); */
+  border-radius: 4px;
+  /* margin: 60px 0 0; */
+  padding: 8px 10px;
+}
+/* Semi Complex card */
+.container {
+  /* position: absolute; */
+  height: 500px;
+  width:90%;
+  top: 60px;
+  left: calc(30% - 300px);
+  display: flex;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .card:not(:first-child) {
+    margin-left: -50px;
+}
+.card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+.card:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+}
+
+
+.card {
+  display: flex;
+  height: 350px;
+  width: 900px;
+  background-color: #313131;
+  box-shadow: 0 25px 50px rgba(0,0,0,.8);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+ 
+}
+
+
+
+
+
+
+.card_section .card_header {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 5px;
+  top: 25px;
+  font-size: 20px;
+  min-width: 100%;
+  font-weight: 800;
+  font-family: 'Courier New', Courier, monospace;
+}
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.card:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.card_section .card_description{
+position: relative;
+  top: 5%;
+  /* padding: 10px; */
+  color: #fff;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* APi docs section */
+.api_docs {
+  margin: 50px 30px;
+}
+.api_docs h3{
+font-family: "Millik";
+color:#1D1D1D;
+font-size: 80px;
+font-weight: 500;
+max-width: 80%;
+
+line-height: 1;
+padding: 0px;
+}
+.api_docs h3 span{
+  color:#EB7DA7;
+  background: none;
+}
+.api_docs p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 300;
+  font-size: 30px;
+  max-width: 60%;
+  margin-bottom: 20px;
+  
+}
+
+/* Global section */
+
+
+
+
+
+
+
+
+
+/* account signup */
+.account_box{
+  background-color: #000000;
+  width: 70%;
+  margin-left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px rgba(29,29,29,.5);
+  padding: 50px 40px;
+    color: #fff;
+    height: 30vh;
+    margin-bottom: 200px;  
+}
+.account_box h3{
+  font-family: "Millik";
+  font-size: 50px;
+}
+.account_box a{
+  color: #fff;
+}
+/* Footer */
+
+/* media query */
+@media only screen and (max-width: 768px) {
+body{
+  max-width: 100%;
+}
+  footer{
+  margin: 0;
+  color: #000;
+  background-color: #6672C7;
+
+}
+
+.header_text{
+  font-size: 80px;
+}
+.second_section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footcity_image{
+  min-width: 600px;
+  min-height: 800px;
+  margin-bottom: 200px;
+}
+.famasi_image{
+  min-width: 900px;
+  min-height: 800px;
+}
+.companies, .info_sell{
+  flex-wrap: wrap;
+}
+.payment_tools{
+  max-width: 100%;
+}
+.payment_section{
+  flex-wrap: wrap;
+}
+.feature_1, .last_features, .check_image, .info_sell .info_sell_text{
+  max-width: 100%;
+}
+.info_sell:nth-child(2){
+ margin-bottom: 100px;
+ 
+}
+.last_header_info{
+  font-size: 30px;
+  font-weight: 400;
+  
+}
+.container{
+  margin-bottom: 200px;
+  margin-left: 30%;
+}
+.container, .card{
+  flex-wrap: wrap;
+  height: 250px;
+  width: 70%;
+  top: -200px;
+  left: calc(50%  200px);
+  font-size: 10px;
+}
+.card_section .card_description{
+  font-size: 14px;
+  max-width: 80%;
+}
+.card_section{
+  height: 215vh;
+}
+.card{
+  margin-bottom: 20px;
+}
+.card1{
+ left: 50%;
+ margin-bottom: 40px;
+}
 }
