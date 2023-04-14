@@ -807,12 +807,14 @@ body{
 }
 .second_section{
   display: flex;
+  margin-left: 10px;
   flex-wrap: wrap;
 }
 .footcity_image, .famasi_image{
   min-width: 500px;
   min-height: 400px;
   margin-bottom: 200px;
+  margin-left: 10px;
 }
 
 .companies, .info_sell{
