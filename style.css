@@ -206,6 +206,7 @@ img{
 }
 .famasi_image{
  margin-left: 5px; 
+ 
 
 }
 .caption_second{
@@ -913,7 +914,8 @@ margin: 2px auto;
  
 }
 .build_sec .header_text, .famasi_image, .footcity_image{
-margin-left: 100px;
+margin-left: 200px;
+margin-bottom: 10px;
 }
 .invoice_details{
   flex-wrap: wrap;
