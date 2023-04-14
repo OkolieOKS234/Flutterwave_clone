@@ -951,4 +951,8 @@ p.card_section_text{
   font-size: 30px;
   font-weight: 300;
 }
+.info_sell .yanga-beauty, .info_sell .creator_img{
+  width: 100%;
+}
+
 }
