@@ -897,6 +897,9 @@ margin: 2px auto;
   max-width: 100%;
   font-size: 1.8rem;
 }
+.caption_second .caption_second_text{
+  min-width: 100%;
+}
 .card_section .card_header{
   font-size: 25px;
   font-weight: 600;
