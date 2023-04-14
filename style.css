@@ -26,6 +26,7 @@ body{
     background-color: #fff;
     font-family: 'Inter';  
     text-decoration: none;
+    max-width: 100%;
 }
 
 /* Navbar */
@@ -206,8 +207,8 @@ img{
 .caption_second{
 position: relative;
 right: 0;
-left: 700px;
-max-width: 40%;
+left: 900px;
+max-width: 35%;
 margin-top: 50px;
 font-weight: 250;
 font-size: 1.4rem;
@@ -427,16 +428,29 @@ max-width: 95%;
   left: 400px;
   margin-top: 100px;
   backdrop-filter: blur(20px);
-  background: linear-gradient(200deg,hsla(0,0%,100%,.2),hsla(0,0%,100%,0));
-  width: 350px;
-  height: 240px;
-  border-radius: 4px;
+  /* From https://css.glass */
+  background: rgba(215, 212, 212, 0.66);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  border: 1px solid rgba(215, 212, 212, 0.3);
+  
+
+  width: 450px;
+  height: 280px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   -webkit-transform-origin: center;
   transform-origin: center;
   -webkit-transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
   transition: 0.4s cubic-bezier(0.28, 0.55, 0.385, 1.65);
   cursor: pointer;
+  display: flex;
+/* justify-content: start; */
+align-items: flex-end;
+gap: 200px;
+
 }
 
 .card1:nth-child(1) {
@@ -585,11 +599,15 @@ max-width: 95%;
 
 span {
   display: inline-block;
-  /* background: rgba(0, 0, 0, 0.05); */
   border-radius: 4px;
-  /* margin: 60px 0 0; */
   padding: 8px 10px;
 }
+.card1 span{
+  padding-top: 200px;
+  color: #fff;
+  font-weight: 200;
+}
+
 /* Semi Complex card */
 .container {
   /* position: absolute; */
@@ -809,13 +827,20 @@ body{
   max-width: 80%;
 }
 .card_section{
-  height: 215vh;
+  height: 260vh;
 }
 .card{
   margin-bottom: 20px;
 }
+.container1{
+  margin-bottom: 450px;
+}
 .card1{
  left: 50%;
  margin-bottom: 40px;
+}
+.caption_second{
+  left:10px;
+  max-width: 80%;
 }
 }
