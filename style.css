@@ -899,6 +899,7 @@ margin: 2px auto;
 }
 .caption_second .caption_second_text{
   min-width: 100%;
+  font-size: 40px;
 }
 .card_section .card_header{
   font-size: 25px;
