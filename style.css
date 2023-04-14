@@ -818,7 +818,7 @@ body{
   flex-wrap: wrap;
 }
 .payment_tools{
-  max-width: 100%;
+  min-width: 100%;
 }
 .payment_section{
   flex-wrap: wrap;
