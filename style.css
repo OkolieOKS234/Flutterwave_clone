@@ -814,8 +814,8 @@ body{
   margin: auto;
 }
 .footcity_image, .famasi_image, .yanga-beauty, .creator_img{
-  min-width: 500px;
-  min-height: 400px;
+  min-width: 900px;
+  min-height: 500px;
   margin-left: 10px;
 }
 .footcity_image {
