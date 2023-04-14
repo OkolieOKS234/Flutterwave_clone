@@ -868,9 +868,9 @@ body{
   font-size: 19px;
   max-width: 80%;
 }
-.card_section{
+#card_section{
   height: 390vh;
-  min-width: 900px;
+  min-width: 100%;
 }
 .container { 
   /* margin: 10px auto; */
