@@ -916,8 +916,8 @@ margin: 2px auto;
  
 }
 .build_sec .header_text, .famasi_image, .footcity_image{
-margin-left: 200px;
-margin-bottom: 10px;
+margin-left: 20px;
+/* margin-bottom: 10px; */
 }
 .invoice_details{
   flex-wrap: wrap;
