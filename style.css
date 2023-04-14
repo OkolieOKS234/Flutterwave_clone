@@ -870,7 +870,7 @@ body{
 }
 .card_section{
   height: 390vh;
-  width: 768px;
+  min-width: 900px;
 }
 .container { 
   /* margin: 10px auto; */
