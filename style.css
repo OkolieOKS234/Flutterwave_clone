@@ -211,7 +211,8 @@ img{
 .caption_second{
 position: relative;
 right: 0;
-left: 900px;
+left: 800px;
+top: 0px;
 max-width: 35%;
 margin-top: 50px;
 font-weight: 250;
@@ -427,10 +428,10 @@ max-width: 95%;
 }
 
 .card1 {
-  position: absolute;
-  top: 700px;
-  left: 400px;
-  margin-top: 100px;
+   position: absolute;
+  top: 800px;
+  left: 400px; 
+  margin: 70px auto; 
   backdrop-filter: blur(20px);
   border: 1px solid #ffffff22;
   background-color: #282c34;
@@ -804,15 +805,12 @@ body{
   display: flex;
   flex-wrap: wrap;
 }
-.footcity_image{
+.footcity_image, .famasi_image{
   min-width: 500px;
   min-height: 400px;
   margin-bottom: 200px;
 }
-.famasi_image{
-  min-width: 1200px;
-  min-height: 800px;
-}
+
 .companies, .info_sell{
   flex-wrap: wrap;
 }
@@ -824,6 +822,9 @@ body{
 }
 .feature_1, .last_features, .check_image, .info_sell .info_sell_text{
   max-width: 100%;
+}
+.check_image{
+  margin: auto;
 }
 .info_sell:nth-child(2){
  margin-bottom: 100px;
@@ -871,6 +872,7 @@ margin: 2px auto;
 .card1{
  left: 30%;
  margin-bottom: 40px;
+
 }
 .caption_second{
   left:10px;
