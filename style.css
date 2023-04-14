@@ -939,4 +939,8 @@ margin-left: 20px;
 .card_section p, .card_section .card_section_text{
   width: 100%;
 }
+p.card_section_text{
+  font-size: 40px;
+  margin: auto;
+}
 }
