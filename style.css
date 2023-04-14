@@ -963,5 +963,9 @@ img.yanga-beauty{
   width: 768px;
   height: 500px;
 }
+/* payments section */
+.payments_section{
+  min-width: 100%;
+}
 
 }
