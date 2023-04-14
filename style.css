@@ -790,6 +790,7 @@ padding: 0px;
 @media only screen and (max-width: 768px) {
 body{
   max-width: 100%;
+  overflow-x: hidden;
 }
   footer{
   margin: 0;
@@ -889,7 +890,7 @@ margin: 2px auto;
   gap:5px;
 }
 .build_sec{
-  min-width: 100%;
+  width: 100%;
 }
 .card_section{
   min-width: 100%;
