@@ -390,7 +390,7 @@ min-width: 100%;
 .card_section h3{
   font-family: "Millik";
   font-size: 80px;
-  max-width: 100%;
+  /* max-width: 100%; */
   text-align: center;
 
 }
@@ -944,14 +944,14 @@ margin-left: 20px;
   flex-wrap: wrap;
 }
 .businesses{
-  width: 100px;
+  width: 200px;
 }
 .card_section p, .card_section .card_section_text{
-  width: 100%;
+  min-width: 100%;
 }
 p.card_section_text{
   font-size: 40px;
-  margin: auto;
+ 
 }
 .info_sell_text_header{
   font-size: 60px;
