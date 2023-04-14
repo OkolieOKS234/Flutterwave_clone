@@ -21,12 +21,16 @@
 *{
     padding: 0;
     margin: 0;
+   
 }
+
+
 body{
     background-color: #fff;
     font-family: 'Inter';  
     text-decoration: none;
     max-width: 100%;
+    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -817,30 +821,39 @@ body{
 .container, .card{
   flex-wrap: wrap;
   height: 250px;
-  width: 70%;
+  /* width: 70%; */
   top: -200px;
   left: calc(50%  200px);
   font-size: 10px;
 }
 .card_section .card_description{
-  font-size: 14px;
+  font-size: 19px;
   max-width: 80%;
 }
 .card_section{
   height: 260vh;
 }
+.container { 
+  /* margin: 10px auto; */
+max-width: 100%;
+margin: 2px auto;
+ }
 .card{
   margin-bottom: 20px;
+  left: 0px;
+  max-width: 100%;
 }
 .container1{
   margin-bottom: 450px;
+  margin-right: 10%;
+ 
 }
 .card1{
- left: 50%;
+ left: 30%;
  margin-bottom: 40px;
 }
 .caption_second{
   left:10px;
-  max-width: 80%;
+  max-width: 100%;
 }
 }
