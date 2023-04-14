@@ -191,8 +191,8 @@ img{
 
 .footcity_image{
     margin-top: 00px;
-    height: 700px;
-    width: 1200px;
+    height: 760px;
+    width: 790px;
     position: relative;
     top: 200px;
 
@@ -201,11 +201,11 @@ img{
 .second_section{
     display: flex;
     /* flex-wrap: wrap; */
-    gap: 5px;
+    gap: 3px;
  
 }
 .famasi_image{
- margin-left: 10px; 
+ margin-left: 5px; 
 
 }
 .caption_second{
@@ -805,8 +805,8 @@ body{
   flex-wrap: wrap;
 }
 .footcity_image{
-  min-width: 600px;
-  min-height: 800px;
+  min-width: 500px;
+  min-height: 400px;
   margin-bottom: 200px;
 }
 .famasi_image{
