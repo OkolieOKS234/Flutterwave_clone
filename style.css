@@ -826,6 +826,7 @@ body{
 
 .payment_tools{
   min-width: 100%;
+  font-size: 80px;
 }
 .payment_section{
   flex-wrap: wrap;
@@ -887,7 +888,7 @@ margin: 2px auto;
 .caption_second{
   left:10px;
   max-width: 100%;
-  margin-top: 10px;
+  font-size: 40px;
 }
 .card_section .card_header{
   font-size: 25px;
