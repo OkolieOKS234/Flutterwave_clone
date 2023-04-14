@@ -326,7 +326,7 @@ a{
 
 background: #f8fafd;
 width: 100%;
-padding: 20px;
+padding: 200px;
 padding-bottom: 200px;
 
 }
@@ -791,7 +791,7 @@ padding: 0px;
 body{
   max-width: 100%;
   overflow-x: hidden;
-  min-width: 100%;
+  
 }
   footer{
   margin: 0;
@@ -896,4 +896,9 @@ margin: 2px auto;
 .card_section{
   min-width: 100%;
 }
+.build_sec, .build_sec .header_text{
+  margin: 0;
+  width: 100%;
+}
+
 }
