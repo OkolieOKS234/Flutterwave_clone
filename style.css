@@ -810,10 +810,13 @@ body{
   margin-left: 10px;
   flex-wrap: wrap;
 }
+#second_section{
+  margin: auto;
+}
 .footcity_image, .famasi_image{
   min-width: 500px;
   min-height: 400px;
-  margin-bottom: 200px;
+  margin-bottom: 400px;
   margin-left: 10px;
 }
 
