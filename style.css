@@ -885,4 +885,13 @@ margin: 2px auto;
 .api_docs h3, .api_docs p{
   max-width: 100%;
 }
+.companies{
+  gap:5px;
+}
+.build_sec{
+  min-width: 100%;
+}
+.card_section{
+  min-width: 100%;
+}
 }
