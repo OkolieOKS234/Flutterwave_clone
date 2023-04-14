@@ -326,19 +326,11 @@ a{
 
 background: #f8fafd;
 width: 100%;
-padding: 200px;
-padding-bottom: 200px;
+/* padding: 200px;
+padding-bottom: 200px; */
 
 }
-.build_sec .header_text{
-    font-family: "Millik";
-    font-weight: 300;
-    font-size: 75px;
-    max-width: 80%;
-    margin: 90px 40px;
 
-   
-}
 .build_sec h3 span{
   color: #35A162;
 }
@@ -628,6 +620,15 @@ span {
   .card:not(:first-child) {
     margin-left: -50px;
 }
+.build_sec .header_text{
+  font-family: "Millik";
+  font-weight: 300;
+  font-size: 75px;
+  max-width: 80%;
+  margin: 90px 40px;
+
+ 
+}
 .card:hover {
   transform: translateY(-20px);
   transition: 0.4s ease-out;
@@ -898,6 +899,7 @@ margin: 2px auto;
 }
 .build_sec, .build_sec .header_text{
   margin: 0;
+  padding: 0;
   width: 100%;
 }
 
