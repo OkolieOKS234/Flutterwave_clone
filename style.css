@@ -812,6 +812,7 @@ body{
 }
 #second_section{
   margin: auto;
+  min-width: 100%;
 }
 .footcity_image, .famasi_image, .yanga-beauty, .creator_img{
   min-width: 900px;
