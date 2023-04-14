@@ -960,6 +960,10 @@ p.card_section_text{
 .info_sell .yanga-beauty, .info_sell .creator_img{
   width: 100%;
 }
+img.famasi_image, img.footcity_image, img.creator_img{
+  min-width: 900px;
+  min-height: 500px;
+}
 img.yanga-beauty{
   min-width: 900px;
   min-height: 500px;
